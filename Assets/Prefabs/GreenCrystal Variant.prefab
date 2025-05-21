@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2584697331303214404, guid: 85d53a0219659b6419817995721bb2c4, type: 3}
       propertyPath: itemName
-      value: Verdite
+      value: Verdite - the crystal of growth (The will to rise, twist, and renew.)
       objectReference: {fileID: 0}
     - target: {fileID: 456144817725211403, guid: 85d53a0219659b6419817995721bb2c4, type: 3}
       propertyPath: m_Pivot.x

@@ -60,5 +60,8 @@ TagManager:
   - name: WalkBehind
     uniqueID: 2066287829
     locked: 0
+  - name: The Last
+    uniqueID: 1850427383
+    locked: 0
   m_RenderingLayers:
   - Default

@@ -15,5 +15,6 @@ public class GameStart : MonoBehaviour
     {
         startPanel.SetActive(false);
         Time.timeScale = 1f;
+        ItemPickUpController.Instance.ShowCollectibleUI();
     }
 }

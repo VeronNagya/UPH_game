@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 201099201968163971}
   - component: {fileID: 8653637926916461614}
   - component: {fileID: 3006846143187955266}
+  - component: {fileID: 1539875114533823484}
   m_Layer: 0
   m_Name: WhiteCrystal_world
   m_TagString: Item
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.1, y: 3.19, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -112,7 +113,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 356971625
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 2687925195997432946, guid: 2619813b3fb69db4e9b299209d561529, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -138,4 +139,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
-  itemName: Lumite
+  itemName: Lumite - the crystal of spirit (The quiet presence that watches and binds.)
+  itemIcon: {fileID: 2687925195997432946, guid: 2619813b3fb69db4e9b299209d561529, type: 3}
+--- !u!114 &1539875114533823484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3713261732376017608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ace7c52731c19149aa8bcea501fa44b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bounceHeight: 0.3
+  bounceDuration: 0.4
+  bounceCount: 2

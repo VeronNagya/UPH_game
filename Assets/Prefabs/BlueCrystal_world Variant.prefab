@@ -13,8 +13,13 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3006846143187955266, guid: e13e5895872d0c041aaaed120092ac94, type: 3}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 699959181534151235, guid: 23442b4b3dcd410488368acc9924edd8, type: 3}
+    - target: {fileID: 3006846143187955266, guid: e13e5895872d0c041aaaed120092ac94, type: 3}
       propertyPath: itemName
-      value: Aetherite
+      value: Aetherite - the crystal of memory (The breath of time that sings through
+        the trees.)
       objectReference: {fileID: 0}
     - target: {fileID: 3713261732376017608, guid: e13e5895872d0c041aaaed120092ac94, type: 3}
       propertyPath: m_Name
@@ -64,7 +69,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1539875114533823484, guid: e13e5895872d0c041aaaed120092ac94, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

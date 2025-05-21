@@ -13,8 +13,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3006846143187955266, guid: e13e5895872d0c041aaaed120092ac94, type: 3}
+      propertyPath: itemIcon
+      value: 
+      objectReference: {fileID: 6081777490817255927, guid: e071dae8e484b6f4c933e6a44f512af0, type: 3}
+    - target: {fileID: 3006846143187955266, guid: e13e5895872d0c041aaaed120092ac94, type: 3}
       propertyPath: itemName
-      value: Verdite
+      value: Verdite - the crystal of growth (The will to rise, twist, and renew.)
       objectReference: {fileID: 0}
     - target: {fileID: 3713261732376017608, guid: e13e5895872d0c041aaaed120092ac94, type: 3}
       propertyPath: m_Name
@@ -64,7 +68,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1539875114533823484, guid: e13e5895872d0c041aaaed120092ac94, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

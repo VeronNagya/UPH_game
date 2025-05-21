@@ -14,8 +14,9 @@ public class PlayerItemCollector : MonoBehaviour
     {
         if (collision.CompareTag("Item")) //if it is the collectable item
         {
+            //Debug.Log("OnTriggerEnter2D: Item detected");//spawning 2 item from the chest for some reason...
             Item item = collision.GetComponent<Item>();
-            if(item != null)
+            if(item != null && !item.IsCollected())
             {
                 //Add item to the inventory
                 /*bool itemAdded = inventoryController.AddItem(collision.gameObject);
@@ -29,6 +30,7 @@ public class PlayerItemCollector : MonoBehaviour
                     bool itemAdded = inventoryController.AddItem(prefab);
                     if (itemAdded)
                     {
+                        item.PickUp(); //show UI - fade in
                         Destroy(collision.gameObject);
                     }
                 }

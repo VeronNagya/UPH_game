@@ -8,7 +8,7 @@ public class TabController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        ActivateTab(0); //always opned to the first page
+        ActivateTab(1); //always opned to the first page (now it's on Inventory)
     }
     public void ActivateTab(int tabNo) //when clicked on the image of tabs
     {

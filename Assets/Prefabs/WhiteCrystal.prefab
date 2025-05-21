@@ -89,4 +89,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
-  itemName: Lumite
+  itemName: Lumite - the crystal of spirit (The quiet presence that watches and binds.)
+  itemIcon: {fileID: 0}

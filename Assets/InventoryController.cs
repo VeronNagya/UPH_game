@@ -57,7 +57,7 @@ public class InventoryController : MonoBehaviour
                 {
                     rectTransform.anchoredPosition = Vector2.zero;
                     rectTransform.localScale = Vector3.one;
-                    rectTransform.sizeDelta = new Vector2(32, 32); //size of image in the slot
+                    rectTransform.sizeDelta = new Vector2(80, 80); //size of image in the slot
                 }
                 //Checking rendering
                 Image image = newItem.GetComponent<Image>();
@@ -84,11 +84,11 @@ public class InventoryController : MonoBehaviour
     }
     public bool HasAllGems()//
     {
-        return collectedItems.Contains("Lumite") && //white
-               collectedItems.Contains("Solite") && //yellow
-               collectedItems.Contains("Pyrite") && //red
-               collectedItems.Contains("Verdite") && //green
-               collectedItems.Contains("Aetherite"); //blue
+        return collectedItems.Contains("Lumite - the crystal of spirit (The quiet presence that watches and binds.)") && //white
+               collectedItems.Contains("Solite - the crystal of awakening (The first light that stirs leaf and soul.)") && //yellow
+               collectedItems.Contains("Pyrite - the crystal of pulse (The restless fire in root and heart.)") && //red
+               collectedItems.Contains("Verdite - the crystal of growth (The will to rise, twist, and renew.)") && //green
+               collectedItems.Contains("Aetherite - the crystal of memory (The breath of time that sings through the trees.)"); //blue
     }
     [HideInInspector] public bool victoryTriggered = false;
     public void TriggerVictory()
